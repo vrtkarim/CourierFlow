@@ -74,7 +74,7 @@ CourierFlow is designed to help delivery personnel manage their routes and deliv
     ]
   }
   ```
-- **Response**: Confirmation message
+- **Response**: GPX file containing the route information (returned as attachment with filename "test.gpx")
 
 ### Public Endpoints
 
