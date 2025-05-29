@@ -111,8 +111,9 @@ Authorization: Bearer {token}
 1. Clone the repository
 2. Ensure you have Java 17 installed
 3. Configure the database connection in `application.properties`
-4. Make sure the required routing data file (`morocco-latest.osm.pbf`) is available in the resources folder
-5. Run the application using Maven:
+4. Make sure the required routing data file (`morocco-latest.osm.pbf`) should be in the resource folder
+   to download any map check : https://download.geofabrik.de/
+6. Run the application using Maven:
    ```
    mvn spring:boot run
    ```
@@ -129,26 +130,6 @@ Authorization: Bearer {token}
 ## License
 
 MIT License
-
-Copyright (c) 2025 Karim El Yaagoubi
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 ## Contact
 
