@@ -1,10 +1,10 @@
-package com.vrtkarim.deliveryapi;
+package com.vrtkarim.courierflow;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DeliveryApiApplicationTests {
+class CourierFlowApplicationTests {
 
     @Test
     void contextLoads() {
